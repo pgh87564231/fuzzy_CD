@@ -1,0 +1,1 @@
+setx PATH "$env:path;C:\Tool\CMD_Tool_cf" -m
