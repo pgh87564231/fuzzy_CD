@@ -33,6 +33,9 @@
 
 1. Open Terminal
 2. Type cmd cf "folder name"
+```C
+  >cf Fuzzy_Folder_name
+```
 ![gif](https://github.com/pgh87564231/fuzzy_CD/blob/master/Demo_G001.gif)
 
 
