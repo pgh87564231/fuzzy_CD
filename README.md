@@ -22,7 +22,7 @@
 
 
 
-4. check everything alreay open
+4. check everything already open
 
 ![image](https://github.com/pgh87564231/fuzzy_CD/blob/master/Readme_P005.png)
 
