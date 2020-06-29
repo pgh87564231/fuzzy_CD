@@ -9,8 +9,9 @@ IF EXIST now_path\CMD_Tool_cf (
 	copy /Y %now_path%\CMD_Tool_cf C:\Tool\CMD_Tool_cf
 )
 
-Powershell.exe -executionpolicy remotesigned -File C:\Tool\CMD_Tool_cf\Set_Env.ps1
-DEL /F C:\Tool\CMD_Tool_cf\Set_Env.ps1
+REM Powershell.exe -executionpolicy remotesigned -File C:\Tool\CMD_Tool_cf\Set_Env.ps1
+REM DEL /F C:\Tool\CMD_Tool_cf\Set_Env.ps1
+setx PATH "$env:path;C:\Tool\CMD_Tool_cf"
 
 msiexec.exe /i C:\Tool\CMD_Tool_cf\Everything-1.4.1.969.x64.msi
 Pause
